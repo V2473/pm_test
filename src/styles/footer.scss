@@ -75,17 +75,6 @@ footer {
         transform: scale(0.7);
       }
     }
-
-    &::before {
-      content: "";
-      position: absolute;
-      width: 300px;
-      height: 300px;
-      top: -60px;
-      left: -60px;
-      background-image: url("./img/ring_footer.svg");
-      background-repeat: no-repeat;
-    }
   }
 
   &__info {
@@ -211,6 +200,7 @@ footer {
 }
 
 .info {
+  position: relative;
   padding: 0 200px;
   display: flex;
   flex-direction: row;
@@ -218,12 +208,26 @@ footer {
 
   height: 60px;
   background: #7c8da7;
-  margin-top: 150px;
+
+  max-width: 1600px;
+  margin: 150px auto 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 200vw;
+    height: 80px;
+    background-color: #7c8da7;
+    z-index: -2;
+    top: 0;
+    left: -100vw;
+  }
 
   @include media("<tablet") {
     height: 124px;
     flex-direction: column;
     align-items: center;
+    padding: 0;
   }
 
   & p {
@@ -250,4 +254,15 @@ footer {
       }
     }
   }
+}
+
+.ring_footer {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top: -60px;
+  left: -60px;
+  background-image: url("./img/ring_footer.svg");
+  background-repeat: no-repeat;
+  // filter: hue-rotate(-70deg);
 }

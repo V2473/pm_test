@@ -5,7 +5,7 @@ main {
   overflow-y: visible;
 
   @include media(">2500px") {
-    height: 1300px;
+    height: 1500px;
   }
 
   @include media("<tablet") {
@@ -186,15 +186,16 @@ main {
       background-repeat: no-repeat;
       z-index: -1;
     }
-
-    &::before {
-      content: "";
-      position: absolute;
-      width: 300px;
-      height: 300px;
-      top: 330px;
-      left: -160px;
-      background-image: url("./img/Main.svg");
-    }
   }
+}
+
+.ring_main {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 330px;
+  left: -160px;
+  background-image: url("./img/Main.svg");
+  // filter: hue-rotate(-70deg);
+
 }
