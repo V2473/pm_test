@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="102.367 80.109 155.762 109.01" width="155.762" height="109.01" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient-1" x1="12.5077" y1="0.235295" x2="2.0911" y2="7.35573" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.919688, 0, 0, 0.919688, 455.484474, 266.673405)">
+      <stop stop-color="#FF9C59"/>
+      <stop offset="1" stop-color="#FF6C08"/>
+    </linearGradient>
+    <linearGradient id="gradient-2" x1="148.336" y1="41.6618" x2="74.7684" y2="91.9498" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9C59"/>
+      <stop offset="1" stop-color="#FF6C08"/>
+    </linearGradient>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, -212.069794, -186.563812)">
+    <circle cx="462.841" cy="274.031" r="7.358" fill="url(#gradient-1)" style=""/>
+    <g transform="matrix(0.919688, 0, 0, 0.919688, 259.255402, 234.970703)" style="">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M116.5 131.679C135.929 131.679 151.679 115.929 151.679 96.5C151.679 77.071 135.929 61.3208 116.5 61.3208C97.071 61.3208 81.3208 77.071 81.3208 96.5C81.3208 115.929 97.071 131.679 116.5 131.679ZM116.5 153C147.704 153 173 127.704 173 96.5C173 65.2959 147.704 40 116.5 40C85.2959 40 60 65.2959 60 96.5C60 127.704 85.2959 153 116.5 153Z" fill="url(#gradient-2)"/>
+    </g>
+  </g>
+</svg>

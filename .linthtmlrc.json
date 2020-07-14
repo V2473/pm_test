@@ -36,14 +36,14 @@
     "font",
     "s"
   ],
-  "tag-name-lowercase": true,
+  "tag-name-lowercase": false,
   "tag-name-match": true,
   "tag-self-close": "never",
   "tag-close": true,
   "text-ignore-regex": "&",
   "title-no-dup": true,
   "line-end-style": "lf",
-  "attr-new-line": 2,
-  "attr-name-style": "dash",
+  "attr-new-line": 7,
+  "attr-name-style": "camel",
   "attr-no-unsafe-char": true
 }

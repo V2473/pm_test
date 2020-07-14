@@ -39,6 +39,7 @@
     }
   },
   "dependencies": {
-    "eslint": "^7.3.1"
+    "eslint": "^7.3.1",
+    "include-media": "^1.4.9"
   }
 }
