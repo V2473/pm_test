@@ -1,5 +1,15 @@
-$hello: red;
+@import "./node_modules/include-media/dist/include-media";
 
-h1 {
-  color: $hello;
+@font-face {
+  font-family: "Circe";
+  src: url("./fonts/Circe-Regular.ttf");
+}
+
+$breakpoints: (phone: 768px, tablet: 1024px, desktop: 1440px, wide: 1920px);
+
+@import "./styles/header.scss";
+
+body {
+  font-family: "Circe", sans-serif;
+  margin: 0;
 }

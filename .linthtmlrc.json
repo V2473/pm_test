@@ -36,7 +36,7 @@
     "font",
     "s"
   ],
-  "tag-name-lowercase": true,
+  "tag-name-lowercase": false,
   "tag-name-match": true,
   "tag-self-close": "never",
   "tag-close": true,
@@ -44,6 +44,6 @@
   "title-no-dup": true,
   "line-end-style": "lf",
   "attr-new-line": 2,
-  "attr-name-style": "dash",
+  "attr-name-style": "camel",
   "attr-no-unsafe-char": true
 }
